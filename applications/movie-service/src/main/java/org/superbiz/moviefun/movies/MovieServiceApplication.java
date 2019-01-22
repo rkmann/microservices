@@ -1,17 +1,13 @@
-package org.superbiz.moviefun;
-
-
+package org.superbiz.moviefun.movies;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class Application {
+public class MovieServiceApplication {
 
     public static void main(String... args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(MovieServiceApplication.class, args);
     }
-
-
 }
